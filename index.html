@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Weather</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+      </div>
+      <div class="temperature">
+        <section>
+          <div class="degree-section">
+            <h2 class="temperature-degree">-</h2>
+            <span>C</span>
+          </div>
+          <h5 class="temperature-range">-</h5>
+        </section>
+        <section class="all-data">
+          <p class="temperature-description">Not available</p>
+          <p class="wind-speed">Not available</p>
+        </section>
+      </div>
+      <section class="input">
+        <input type="text" class="inputValue">
+        <input type="submit" value="Enter city" class="enter-city">
+        <input type="submit" value="Your location" class="enter-location">
+      </section>
+    </div>
+    <script type="text/javascript" src="skycons.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
