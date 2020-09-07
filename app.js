@@ -30,7 +30,7 @@ window.addEventListener('load', ()=> {
           const timezone = data['name'];
           
           // Значения температур в Кельвинах
-					const temperature = data['main']['temp'];
+	  const temperature = data['main']['temp'];
           const temperature_min = data['main']['temp_min'];
           const temperature_max = data['main']['temp_max'];
           
