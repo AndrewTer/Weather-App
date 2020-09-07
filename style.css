@@ -112,16 +112,16 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (max-width : 400px) {
-	input[type="text"] {
+  input[type="text"] {
     width: 100%;
     border-radius: 0;
-	}
+  }
 
-	input[type="submit"] {
+  input[type="submit"] {
     width: 50%;
-	}
+  }
 
-	.enter-city {
+  .enter-city {
     border-radius: 0 0 0 2vh;
-	}
+  }
 }
