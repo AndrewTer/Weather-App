@@ -47,7 +47,7 @@ window.addEventListener('load', ()=> {
           let fahrenheit_min = celsiusToFahrenheit(celsius_min);
           let fahrenheit_max = celsiusToFahrenheit(celsius_max);
           
-          // Вывод полученых данных
+          // Вывод полученных данных
           locationTimezone.textContent = timezone;
           temperatureDegree.textContent = Math.floor(celsius) + String.fromCharCode(176);
           temperatureRange.textContent = "(" + Math.floor(celsius_min) + String.fromCharCode(176) + "C - " + Math.floor(celsius_max) + String.fromCharCode(176) + "C)";
@@ -112,7 +112,7 @@ window.addEventListener('load', ()=> {
             let fahrenheit_min = celsiusToFahrenheit(celsius_min);
             let fahrenheit_max = celsiusToFahrenheit(celsius_max);
             
-            // Вывод полученых данных
+            // Вывод полученных данных
             locationTimezone.textContent = timezone;
             temperatureDegree.textContent = Math.floor(celsius) + String.fromCharCode(176);
             temperatureRange.textContent = "(" + Math.floor(celsius_min) + String.fromCharCode(176) + "C - " + Math.floor(celsius_max) + String.fromCharCode(176) + "C)";
